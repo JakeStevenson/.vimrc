@@ -68,6 +68,7 @@ if has("autocmd")
   " Use the default filetype settings, so that mail gets 'tw' set to 72,
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
+  filetype off
   filetype plugin indent on
 
   " Put these in an autocmd group, so that we can delete them easily.
@@ -91,6 +92,7 @@ if has("autocmd")
 
 else
 
+  set filetype on
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
@@ -113,3 +115,5 @@ endfunction
 command -nargs=0 OpenNERDTree :call OpenNERDTree()
 
 nmap <ESC>t :OpenNERDTree<CR>
+" Disable folding in markdown
+let g:vim_markdown_folding_disabled=1
