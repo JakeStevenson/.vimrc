@@ -1,10 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/jakes/Projects/gitolite-admin/conf'
-let g:netrw_dirhist_2='/Users/jakes/Projects/gitolite-admin/keydir'
-let g:netrw_dirhist_3='/Users/jakes/Projects/ArduSprinkler/Sprinkler'
-let g:netrw_dirhist_4='/Users/jakestevenson/Projects/ArduinoSprinkler/Server'
-let g:netrw_dirhist_5='/Users/jakestevenson/Projects/node-schedule/test'
-let g:netrw_dirhist_6='/Users/jakestevenson/Projects/ArduinoSprinkler/Server'
-let g:netrw_dirhist_7='/Users/jakestevenson/testbot/node_modules/hubot-irc'
-let g:netrw_dirhist_8='/Users/jakestevenson/.vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jakestevenson/Projects/gym/app'
+let g:netrw_dirhist_2='/Users/jakestevenson/Projects/gym'
+let g:netrw_dirhist_3='/Users/jakestevenson/Projects/gym/app/scripts/controllers'
+let g:netrw_dirhist_4='/Users/jakestevenson/Projects/gym/app'

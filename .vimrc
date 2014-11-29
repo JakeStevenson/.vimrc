@@ -59,7 +59,7 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
@@ -117,3 +117,5 @@ command -nargs=0 OpenNERDTree :call OpenNERDTree()
 nmap <ESC>t :OpenNERDTree<CR>
 " Disable folding in markdown
 let g:vim_markdown_folding_disabled=1
+
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4 noexpandtab
